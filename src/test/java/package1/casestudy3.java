@@ -41,8 +41,8 @@ public class casestudy3 {
 
 	@When("user proceed to payment by addding product to the cart and clicks the Add To Cart button")
 	public void user_proceed_to_payment_by_addding_product_to_the_cart_and_clicks_the_Add_To_Cart_button() {
-		String title=driver.getTitle();
-		Assert.assertEquals("Search", title);
+		//String title=driver.getTitle();
+		//Assert.assertEquals("Search", title);
 		//driver.findElement(By.linkText("Add to cart")).click();
 		//driver.findElement(By.partialLinkText("Cart")).click();
 	}
